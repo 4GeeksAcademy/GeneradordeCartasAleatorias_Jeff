@@ -3,3 +3,35 @@
 body{
     background: white;
 }
+
+
+.card {
+    width: 400px; /* Ancho de la carta */
+    height: 440px; /* Alto de la carta */
+    border: 1px solid black; /* Borde de la carta */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex; /* Para centrar contenido */
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Alinear horizontalmente */
+    font-size: 44px; /* Tamaño de la fuente */
+}
+
+.spade {
+    background-color: black; /* Color de fondo para espadas */
+    color: white; /* Color de texto para espadas */
+}
+
+.club {
+    background-color: green; /* Color de fondo para tréboles */
+    color: white; /* Color de texto para tréboles */
+}
+
+.heart {
+    background-color: red; /* Color de fondo para corazones */
+    color: white; /* Color de texto para corazones */
+}
+
+.diamond {
+    background-color: blue; /* Color de fondo para diamantes */
+    color: white; /* Color de texto para diamantes */
+}
