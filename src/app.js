@@ -25,10 +25,15 @@ window.onload = function () {
   const paloRandom = randommaso(maso);
   const cartaRandom = randomCarta(numCarta);
 
-
-  document.querySelector("#maso1").innerText = paloRandom;
-  document.querySelector("#carta").innerText = cartaRandom;
+ document.querySelector("#maso1").innerText = paloRandom;
+  document.querySelector("#center").innerText = cartaRandom;
 document.querySelector("#maso2").innerText = paloRandom;
+ 
+const color = (paloRandom === '♥' || paloRandom === '♦') ? 'red' : 'black';
+  maso1.style.color = color;
+  maso2.style.color = color;
+  center.style.color = color;
+
 
 
 };

@@ -1,37 +1,57 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: rgb(5, 230, 69);
 }
 
 
 .card {
-    width: 400px; /* Ancho de la carta */
-    height: 440px; /* Alto de la carta */
-    border: 1px solid black; /* Borde de la carta */
-    border-radius: 10px; /* Bordes redondeados */
-    display: flex; /* Para centrar contenido */
-    align-items: center; /* Alinear verticalmente */
-    justify-content: center; /* Alinear horizontalmente */
-    font-size: 44px; /* Tamaño de la fuente */
+    width: 370px;
+    /* Ancho de la carta */
+    height: 440px;
+    /* Alto de la carta */
+    border: 1px solid black;
+    /* Borde de la carta */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    display: flex;
+    /* Para centrar contenido */
+    align-items: center;
+    /* Alinear verticalmente */
+    justify-content: center;
+    /* Alinear horizontalmente */
+
+    /* Tamaño de la fuente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.spade {
-    background-color: black; /* Color de fondo para espadas */
-    color: white; /* Color de texto para espadas */
+
+
+.center {
+    font-size: 110px;
 }
 
-.club {
-    background-color: green; /* Color de fondo para tréboles */
-    color: white; /* Color de texto para tréboles */
+
+.color1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 60px;
+
 }
 
-.heart {
-    background-color: red; /* Color de fondo para corazones */
-    color: white; /* Color de texto para corazones */
-}
-
-.diamond {
-    background-color: blue; /* Color de fondo para diamantes */
-    color: white; /* Color de texto para diamantes */
+.color2 {
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 69px;
 }
